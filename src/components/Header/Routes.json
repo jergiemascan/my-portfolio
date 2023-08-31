@@ -1,7 +1,7 @@
 {
   "about": {
     "name": "About",
-    "path": "/my-portfolio"
+    "path": "/"
   },
   "projects": {
     "name": "Projects",
