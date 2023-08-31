@@ -1,0 +1,18 @@
+{
+  "about": {
+    "name": "About",
+    "path": "/"
+  },
+  "projects": {
+    "name": "Projects",
+    "path": "/projects"
+  },
+  "contacts": {
+    "name": "Contacts",
+    "path": "/contacts"
+  },
+  "resume": {
+    "name": "Resume",
+    "path": "/resume"
+  }
+}
