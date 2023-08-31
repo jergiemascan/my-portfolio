@@ -1,7 +1,7 @@
 {
   "name": "jergies-own-portfolio",
   "version": "0.1.0",
-  "homepage": "https://jergiemascan.github.io/jergiemascan.github.io",
+  "homepage": "https://jergiemascan.github.io/my-portfolio",
   "private": false,
   "description": "Personal portfolio of Jergie Mascan",
   "dependencies": {
