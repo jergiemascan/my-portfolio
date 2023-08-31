@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jergiemascan.github.io/static/css/main.b027d116.css",
+    "main.js": "/jergiemascan.github.io/static/js/main.814276d2.js",
+    "static/js/787.b926d2a2.chunk.js": "/jergiemascan.github.io/static/js/787.b926d2a2.chunk.js",
+    "static/media/todo-image.jpg": "/jergiemascan.github.io/static/media/todo-image.1ee83bde6f7eb51580ee.jpg",
+    "static/media/e-handel.jpg": "/jergiemascan.github.io/static/media/e-handel.7e127b64aea30fcbd375.jpg",
+    "static/media/blog-post-site.jpg": "/jergiemascan.github.io/static/media/blog-post-site.d0431ef4dd76fa3a1466.jpg",
+    "static/media/cities.jpg": "/jergiemascan.github.io/static/media/cities.b34e8636e4d9f15dd0f4.jpg",
+    "static/media/country-image.jpg": "/jergiemascan.github.io/static/media/country-image.892775ed567bb44462d4.jpg",
+    "index.html": "/jergiemascan.github.io/index.html",
+    "main.b027d116.css.map": "/jergiemascan.github.io/static/css/main.b027d116.css.map",
+    "main.814276d2.js.map": "/jergiemascan.github.io/static/js/main.814276d2.js.map",
+    "787.b926d2a2.chunk.js.map": "/jergiemascan.github.io/static/js/787.b926d2a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b027d116.css",
+    "static/js/main.814276d2.js"
+  ]
+}
