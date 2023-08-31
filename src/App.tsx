@@ -5,6 +5,7 @@ import Contact from "./pages/Contact/Contact"
 import Resume from "./pages/Resume/Resume"
 import Layout from "./components/layouts/Layout"
 import Main from "./components/layouts/Main"
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </Layout>
     </Router>
