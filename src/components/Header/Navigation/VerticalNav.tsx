@@ -8,9 +8,6 @@ interface MenuButtonProps {
   expanded: boolean
 }
 
-type SvgProps = React.SVGProps<SVGSVGElement> & {
-  expanded?: boolean
-}
 const VerticalNav = () => {
   const [expanded, setExpanded] = useState(false)
 
@@ -38,7 +35,6 @@ const VerticalNav = () => {
           height="28"
           fill={expanded ? "var(--secondary-color)" : "var(--white-color)"}
           xmlns="http://www.w3.org/2000/svg"
-          expanded={expanded}
         >
           <rect
             y="-2"
@@ -90,22 +86,21 @@ const NavContainer = styled.nav`
     display: none;
   }
 `
+
 const MenuButton = styled.button<MenuButtonProps>`
   background-color: transparent;
   border: none;
-  display: block;
-  position: relative;
-  margin-left: auto;
   color: #000;
   cursor: pointer;
-  padding-right: 0.5rem;
+  padding-right: 0.8rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   ${({ expanded }) =>
     expanded &&
     `
     margin: 0;
     z-index: 2000;
-    position: absolute;
+    position: fixed;
     top: 2rem;
     right: 1.8rem;
     transition: all 0.4s ease-out;
@@ -133,9 +128,9 @@ const LinksUl = styled.ul`
   align-items: center;
   font-size: 1.5rem;
 `
-const Svg = styled.svg<SvgProps>`
+const Svg = styled.svg`
   rect {
     width: 100%;
-    transition: transform 0.4s ease, opacity 0.2s ease;
+    transition: transform 0.3s ease, opacity 0.2s ease;
   }
 `
