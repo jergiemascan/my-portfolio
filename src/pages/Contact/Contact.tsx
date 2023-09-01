@@ -1,9 +1,13 @@
 import React from "react"
+import { useLocation } from "react-router-dom"
 import * as S from "./Contact.styles"
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+
 const Contact = () => {
+  const location = useLocation()
+
   return (
-    <S.Section>
+    <S.Section noBorderTop={location.pathname === "/contacts"}>
       <div className="section">
         <S.ContactHeader>
           <h1>Get in Touch</h1>
@@ -23,7 +27,7 @@ const Contact = () => {
             <FaEnvelope size={24} color="var(--secondary-color)" />
             <span> jiji.mascan@gmail.com </span>
           </S.Links>
-          
+
           <S.SocialMadiaWrapper>
             <S.Links
               href="https://github.com/jergiemascan"

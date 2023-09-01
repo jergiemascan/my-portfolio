@@ -4,7 +4,7 @@ import * as S from "./Technologies.styles"
 
 const Technologies = () => {
   return (
-    <S.Section className="section">
+    <div className="section">
       <S.GridContainer>
         {TechnologiesList.map((tech, index) => (
           <S.GridContent key={tech.title}>
@@ -27,7 +27,7 @@ const Technologies = () => {
               <S.Icon>{tech.icon}</S.Icon>
             </S.IconWrapper>
 
-            <S.H2>{tech.title}</S.H2>
+            <h2>{tech.title}</h2>
             <ul>
               {tech.items.map((item, index) => (
                 <li key={index}>{item}</li>
@@ -36,7 +36,7 @@ const Technologies = () => {
           </S.GridContent>
         ))}
       </S.GridContainer>
-    </S.Section>
+    </div>
   )
 }
 

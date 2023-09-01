@@ -23,20 +23,11 @@ export const ResumeContainer = styled.section`
   }
 `
 export const Content = styled(Flex)`
-  gap: 1.5rem;
-  font-size: 15px;
+  gap: 1.9rem;
   a {
     text-decoration: underline;
     &:hover {
       color: var(--primary-color);
-    }
-  }
-  h3 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding-bottom: 5px;
-    ${BREAKPOINT_MIN_WIDTH[3]} {
-      font-size: 1.4rem;
     }
   }
   span {
@@ -46,5 +37,8 @@ export const Content = styled(Flex)`
 `
 export const Description = styled.p`
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  ${BREAKPOINT_MIN_WIDTH[3]} {
+    font-size: 1.2rem;
+  }
 `

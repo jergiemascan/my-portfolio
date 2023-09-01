@@ -13,7 +13,7 @@ const Resume = () => {
         </div>
         {Experience.map(exp => (
           <div key={exp.company}>
-            <h3>{exp.title}</h3>
+            <h2>{exp.title}</h2>
             <span>
               <a
                 href={exp.link}
@@ -39,7 +39,7 @@ const Resume = () => {
         </div>
         {Education.map(course => (
           <div key={course.course}>
-            <h3>{course.course}</h3>
+            <h2>{course.course}</h2>
             <span>
               <p>{course.school}</p>
               {" • "}
@@ -52,7 +52,7 @@ const Resume = () => {
       </S.Content>
 
       <a
-        href="https://drive.google.com/file/d/1Yc612tCAl57hkxzEVbyJkCfCTJ2bgYG9/view"
+        href="https://drive.google.com/file/d/1Ws0nYXb1FdYAxM6JxnZNbgZXTRsnKoEH/view?usp=sharing"
         target="_blank"
         rel="noopenner noreferrer "
       >

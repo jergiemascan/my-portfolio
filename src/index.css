@@ -23,51 +23,46 @@ html {
 body {
   font-family: "Roboto Condensed", "Inter", Sans-Serif;
   color: var(--secondary-color);
+  letter-spacing: 0.2px;
+  line-height: 1.5;
 }
 header {
   background-color: var(--primary-color);
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
-  @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
-  }
-}
 
-h2 {
-  font-size: 1.4rem;
-  font-weight: 300;
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
   }
 }
 
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  @media only screen and (min-width: 992px) {
+    font-size: 1.4rem;
+  }
+}
 h3 {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-h4 {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.2rem;
   font-weight: 400;
+  letter-spacing: 0;
 }
-a,
-ul > li {
-  list-style: none;
+
+a {
   text-decoration: none;
-
-  &:active {
-    text-decoration: none;
-  }
-
-  &:visited {
-    color: var(--secondary-color);
-  }
+  color: var(--secondary-color);
+}
+a:active,
+a:visited {
+  color: var(--secondary-color);
 }
 
 li {
+  list-style: none;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease-in-out;
 }
@@ -83,26 +78,21 @@ body.noscroll {
   margin: 0 auto;
   padding: 2rem 1rem;
   text-align: center;
-}
 
-@media only screen and (min-width: 768px) {
-  .section {
+  @media only screen and (min-width: 768px) {
     max-width: 46rem;
     padding: 3rem 1rem;
   }
-}
-@media only screen and (min-width: 992px) {
-  .section {
+
+  @media only screen and (min-width: 992px) {
     max-width: 60rem;
   }
-}
-@media only screen and (min-width: 1200px) {
-  .section {
+
+  @media only screen and (min-width: 1200px) {
     max-width: 71.25rem;
   }
-}
-@media only screen and (min-width: 1400px) {
-  .section {
+
+  @media only screen and (min-width: 1400px) {
     max-width: 82.5rem;
   }
 }

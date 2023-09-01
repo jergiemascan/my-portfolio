@@ -22,8 +22,12 @@ export default Layout
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
 `
 const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 1;
 `

@@ -94,18 +94,20 @@ const MenuButton = styled.button<MenuButtonProps>`
   background-color: transparent;
   border: none;
   display: block;
+  position: relative;
   margin-left: auto;
   color: #000;
   cursor: pointer;
+  padding-right: 0.5rem;
 
   ${({ expanded }) =>
     expanded &&
     `
     margin: 0;
     z-index: 2000;
-    position: fixed;
+    position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 1.8rem;
     transition: all 0.4s ease-out;
     `}
 `
@@ -129,11 +131,11 @@ const LinksUl = styled.ul`
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 `
 const Svg = styled.svg<SvgProps>`
   rect {
     width: 100%;
-    transition: transform 0.3s ease, opacity 0.2s ease;
+    transition: transform 0.4s ease, opacity 0.2s ease;
   }
 `

@@ -1,8 +1,9 @@
 import styled from "styled-components"
 import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
 
-export const Section = styled.section`
-  border-top: 1px solid var(--lightest-grey);
+export const Section = styled.section<{ noBorderTop: boolean }>`
+  border-top: ${({ noBorderTop }) =>
+    noBorderTop ? "none" : "1px solid var(--lightest-grey)"};
 `
 
 export const ContactHeader = styled.div`
@@ -11,10 +12,19 @@ export const ContactHeader = styled.div`
   gap: 1.5rem;
   padding-top: 1rem;
   text-align: center;
+  
+  h2 {
+    font-weight: 300;
+  }
+
   ${BREAKPOINT_MIN_WIDTH[2]} {
     gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
   }
 `
 export const LinkContainer = styled.div`

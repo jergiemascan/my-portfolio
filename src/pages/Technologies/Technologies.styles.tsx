@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
 
-export const Section = styled.section``
 export const GridContainer = styled.div`
   background-color: var(--white-color);
   box-shadow: var(--light-shadow);
@@ -28,11 +27,16 @@ export const GridContent = styled.div`
   padding: 2rem 0;
   position: relative;
   border-bottom: 1px solid var(--lightest-grey);
+
   &:last-child {
     border-bottom: none;
   }
 
-  ${BREAKPOINT_MIN_WIDTH[2]} {
+  li{
+    font-size:1.1rem;
+  }
+
+    ${BREAKPOINT_MIN_WIDTH[2]} {
     gap: 2rem;
     border-right: 1px solid var(--lightest-grey);
     padding: 3rem 0;
@@ -71,12 +75,5 @@ export const Icon = styled.span`
       height: 1.5rem;
       width: 1.5rem;
     }
-  }
-`
-export const H2 = styled.h2`
-  font-weight: 600;
-  font-size: 1.2rem;
-  ${BREAKPOINT_MIN_WIDTH[3]} {
-    font-size: 1.4rem;
   }
 `
