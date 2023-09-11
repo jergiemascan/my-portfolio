@@ -101,9 +101,16 @@ const MenuButton = styled.button<MenuButtonProps>`
     margin: 0;
     z-index: 2000;
     position: fixed;
-    top: 2rem;
-    right: 1.8rem;
+    top: 3.3rem;
+    right: 1rem;
     transition: all 0.4s ease-out;
+
+    ${BREAKPOINT_MIN_WIDTH[1]}{
+      right: 1.8rem;
+    }
+    ${BREAKPOINT_MIN_WIDTH[2]}{
+      top:4rem;
+    }
     `}
 `
 const SmallScreenContainer = styled.div<MenuButtonProps>`
