@@ -2,7 +2,10 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 import Routes from "../Routes.json"
 import styled from "styled-components"
-import { BREAKPOINT_MAX_WIDTH } from "../../../assets/styles/Breakpoints"
+import {
+  BREAKPOINT_MAX_WIDTH,
+  BREAKPOINT_MIN_WIDTH,
+} from "../../../assets/styles/Breakpoints"
 
 const Navbar = () => {
   return (
@@ -29,10 +32,14 @@ const Container = styled.nav`
   ul {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.2rem;
+
+    ${BREAKPOINT_MIN_WIDTH[3]} {
+      gap: 1.5rem;
+    }
   }
   li a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--white-color);
   }
   ${BREAKPOINT_MAX_WIDTH[3]} {

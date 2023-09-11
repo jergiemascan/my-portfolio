@@ -10,16 +10,23 @@ const About = () => {
           <h1>Hi, Welcome To My Portfolio👋🏻</h1>
           <h2>
             I'm Jergie Mascan, a goal-driven Front-end Developer from Stockholm,
-            Sweden. My journey into web development opened up a passion for
-            creating innovative solutions and optimal user experiences through
-            my frontend skills. Most of my projects are built with JavaScript,
-            TypeScript, React and Node.js, but I also have basic knowledge of
-            ASP.NET and Umbraco.
+            Sweden. My journey into web development started amidst Covid-19
+            isolation days, where my curiosity for coding turned into a deep
+            passion. A year after, I pursued a two-year vocational program in
+            Stockholm, enriching both my theoretical knowledge and practical
+            experience, through a hands-on internship.
+            This program has deepened my passion for creating innovative
+            solutions and optimal user experiences through my frontend skills.
+            Most of my projects are built with JavaScript, TypeScript, React and
+            Node.js, but I also have basic knowledge of ASP.NET and Umbraco.
           </h2>
           <h2>
             When I'm not coding, I love playing badminton, traveling for
-            inspiration, and immersing myself in diverse cultures. Feel free to
-            browse through my projects below.
+            inspiration, and immersing myself in diverse cultures.
+            <br />
+            Currently, I am focusing on learning .NET Core, and actively seeking
+            new opportunities to both share my knowledge and expand my horizons.
+            Feel free to browse through my projects below.
           </h2>
         </Content>
       </div>

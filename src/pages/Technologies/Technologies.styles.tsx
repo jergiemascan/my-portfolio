@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
 
+export const Section = styled.section``
 export const GridContainer = styled.div`
   background-color: var(--white-color);
   box-shadow: var(--light-shadow);

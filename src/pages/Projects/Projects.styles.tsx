@@ -12,16 +12,16 @@ export const ProjectHeader = styled(Flex)`
   padding-bottom: 3rem;
   text-align: center;
 
-  h2{
+  h2 {
     font-weight: 300;
-    ${BREAKPOINT_MIN_WIDTH[2]}{
+    ${BREAKPOINT_MIN_WIDTH[2]} {
       font-size: 1.5rem;
       font-weight: 400;
     }
   }
-  ${BREAKPOINT_MIN_WIDTH[1]} {
+  ${BREAKPOINT_MIN_WIDTH[2]} {
     gap: 1rem;
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 4rem;
   }
 `

@@ -4,7 +4,7 @@ import * as S from "./Technologies.styles"
 
 const Technologies = () => {
   return (
-    <div className="section">
+    <S.Section className="section">
       <S.GridContainer>
         {TechnologiesList.map((tech, index) => (
           <S.GridContent key={tech.title}>
@@ -36,7 +36,7 @@ const Technologies = () => {
           </S.GridContent>
         ))}
       </S.GridContainer>
-    </div>
+    </S.Section>
   )
 }
 

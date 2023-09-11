@@ -85,7 +85,7 @@ export const ProjectLists = [
     projectName: "Blog Website",
 
     description:
-      "A fullstack collaborated project of dynamic blog platform. Administrators have capabilities to publish, update, or delete articles across various categories.  My contributions: Create blog post with different categories, delete articles, and CSS.",
+      "A fullstack collaborated project of dynamic blog platform. Administrators have capabilities to publish, update, or delete articles across various categories.  My contributions: Create blog post with different categories, delete articles, and some CSS.",
     siteIcon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ export const ProjectLists = [
     projectName: "E-commerce Site",
 
     description:
-      "A collaborated e-commerce shop built with React, Express and MongoDB. My contributions: Setting up the front-end and backend enivironment, homepage, users shopping history, UI, some api, mongoose schema,and server configuration.",
+      "A collaborated e-commerce shop built with React, Express and MongoDB. My contributions: Setting up the front-end and backend enivironment, homepage, user's shopping history, UI, some api, mongoose schema,and server configuration.",
     siteIcon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

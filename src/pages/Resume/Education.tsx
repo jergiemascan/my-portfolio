@@ -5,7 +5,7 @@ export const Education = [
     location: "Stockholm, Sweden",
     date: "Aug 2021 - June 2023",
     description: [
-      "Acquired comprehensive skills in JavaScript Node.js, React, React Native, Node.Js and other core web technologies.",
+      "Acquired comprehensive skills in JavaScript, React, React Native, Node.js, UX/UI and other core web technologies.",
       " Participated in several collaborative projects emphasizing mobile-first development and responsive design principles.",
     ],
   },

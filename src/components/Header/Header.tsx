@@ -3,13 +3,17 @@ import HorizontalNav from "./Navigation/HorizontalNav"
 import VerticalNav from "./Navigation/VerticalNav"
 import styled from "styled-components"
 import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
+import Logo from "./Navigation/Logo"
 
 const Header = () => {
   return (
     <header>
       <HeaderContainer>
-        <HorizontalNav />
-        <VerticalNav />
+        <Logo />
+        <>
+          <HorizontalNav />
+          <VerticalNav />
+        </>
       </HeaderContainer>
     </header>
   )
@@ -19,8 +23,8 @@ export default Header
 
 const HeaderContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content:space-between;
+   align-items: center;
   padding: 2rem 1rem;
   width: 100%;
   margin: 0 auto;
