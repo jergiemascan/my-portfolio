@@ -20,7 +20,7 @@ export const ProjectLists = [
     projectName: "Bank App",
 
     description:
-      "A fullstack application allowing users to deposit and withdraw money. Users can deposit negative values and display the current balance and latest transactions",
+      "A full-stack application enabling deposits, withdrawals, and allowing negative balances. Displays the three latest transactions with their types and current balance. Built with React, JavaScript, and Node.js.",
     link: "https://bank-appen.netlify.app/",
 
     siteIcon: (
