@@ -82,6 +82,9 @@ const VerticalNav = () => {
 export default VerticalNav
 
 const NavContainer = styled.nav`
+  align-self: baseline;
+  padding-top: 1rem;
+
   ${BREAKPOINT_MIN_WIDTH[3]} {
     display: none;
   }

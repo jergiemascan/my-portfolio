@@ -29,6 +29,8 @@ const Navbar = () => {
 export default Navbar
 
 const Container = styled.nav`
+  align-self: baseline;
+  padding-top: 1rem;
   ul {
     display: flex;
     flex-direction: row;

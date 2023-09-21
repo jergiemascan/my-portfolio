@@ -23,19 +23,18 @@ export default Header
 
 const HeaderContainer = styled.div`
   display: flex;
-  justify-content:space-between;
-   align-items: center;
-  padding: 2rem 1rem;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
+  padding: 1rem 1rem 0 1rem;
 
   ${BREAKPOINT_MIN_WIDTH[3]} {
     max-width: 60rem;
-    padding-right: 1rem;
+    padding: 1rem 0 0 0;
   }
   ${BREAKPOINT_MIN_WIDTH[4]} {
     max-width: 71.25rem;
-    padding-right: 1.5rem;
   }
   ${BREAKPOINT_MIN_WIDTH[5]} {
     max-width: 82.5rem;
