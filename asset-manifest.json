@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.981b572b.css",
-    "main.js": "/my-portfolio/static/js/main.6e90c094.js",
+    "main.js": "/my-portfolio/static/js/main.051e3ff6.js",
     "static/js/787.b926d2a2.chunk.js": "/my-portfolio/static/js/787.b926d2a2.chunk.js",
     "static/media/todo-image.jpg": "/my-portfolio/static/media/todo-image.1ee83bde6f7eb51580ee.jpg",
     "static/media/e-handel.jpg": "/my-portfolio/static/media/e-handel.7e127b64aea30fcbd375.jpg",
@@ -11,11 +11,11 @@
     "static/media/bank-app.jpg": "/my-portfolio/static/media/bank-app.d54f7a475b2f4ddc039a.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.981b572b.css.map": "/my-portfolio/static/css/main.981b572b.css.map",
-    "main.6e90c094.js.map": "/my-portfolio/static/js/main.6e90c094.js.map",
+    "main.051e3ff6.js.map": "/my-portfolio/static/js/main.051e3ff6.js.map",
     "787.b926d2a2.chunk.js.map": "/my-portfolio/static/js/787.b926d2a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.981b572b.css",
-    "static/js/main.6e90c094.js"
+    "static/js/main.051e3ff6.js"
   ]
 }
