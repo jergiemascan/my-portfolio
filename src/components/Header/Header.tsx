@@ -27,11 +27,9 @@ const HeaderContainer = styled.div`
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 1rem 1rem 0 1rem;
 
   ${BREAKPOINT_MIN_WIDTH[3]} {
     max-width: 60rem;
-    padding: 1rem 0 0 0;
   }
   ${BREAKPOINT_MIN_WIDTH[4]} {
     max-width: 71.25rem;

@@ -19,10 +19,10 @@ const Container = styled.div`
     max-width: 70%;
 
     ${BREAKPOINT_MIN_WIDTH[2]} {
-      max-width: 90%;
+      padding-top: 0.5rem;
     }
     ${BREAKPOINT_MIN_WIDTH[3]} {
-      max-width: 100%;
+      max-width: 90%;
     }
   }
 `

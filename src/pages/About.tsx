@@ -9,24 +9,28 @@ const About = () => {
         <Content>
           <h1>Hi, Welcome To My Portfolio👋🏻</h1>
           <h2>
-            I'm Jergie Mascan, a goal-driven Front-end Developer from Stockholm,
-            Sweden. My journey into web development started amidst Covid-19
-            isolation days, where my curiosity for coding turned into a deep
-            passion. A year after, I pursued a two-year vocational program in
-            Stockholm, enriching both my theoretical knowledge and practical
-            experience, through a hands-on internship.
-            This program has deepened my passion for creating innovative
-            solutions and optimal user experiences through my frontend skills.
-            Most of my projects are built with JavaScript, TypeScript, React and
-            Node.js, but I also have basic knowledge of ASP.NET and Umbraco.
+            I'm Jergie, a goal-driven Front-end Developer, with a diploma in
+            Frontend Web Development from Higher Vocational Education. My
+            primary expertise lies in frontend, but I also have solid
+            understanding of backend web development and database solutions.
+            Technologies I'm proficient with include JavaScript, TypeScript,
+            React, Next.js, Vue and Node.js, which I have applied in numerous
+            projects.
           </h2>
+
           <h2>
-            When I'm not coding, I love playing badminton, traveling for
-            inspiration, and immersing myself in diverse cultures.
-            <br />
-            Currently, I am focusing on learning .NET Core, and actively seeking
-            new opportunities to both share my knowledge and expand my horizons.
-            Feel free to browse through my projects below.
+            As a person I am sociable, thriving in environments where
+            collaboration is key. I believe in the power of teamwork, where we
+            can blend our unique strengths and grow together. I'm all about
+            learning, improving, and pushing the boundaries of what I know about
+            web development.
+          </h2>
+
+          <h2>
+            When I'm not coding, I love playing badminton, kayaking, taking
+            sauna baths, and traveling for inspiration. Feel free to message me
+            if you have any job offers, recommendations, or just want to chat
+            about tech and badminton ☺️
           </h2>
         </Content>
       </div>

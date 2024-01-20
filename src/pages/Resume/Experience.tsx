@@ -1,5 +1,14 @@
 export const Experience = [
   {
+    title: "Frontend Developer",
+    company: "Cardia",
+    link: "https://mycardia.se/",
+    location: "Stockholm, Sweden",
+    date: "Jan. 2024 - present",
+    jobDescription:
+      "Designer and web developer for Cardia's platform. Technology and languages I'm working with include Vue, TypeScript and PHP.",
+  },
+  {
     title: "Fullstack Developer, Intern",
     company: "DevCore",
     link: "https://www.devcore.se/en/",
@@ -11,7 +20,7 @@ export const Experience = [
   {
     title: "Front-end Developer, Intern",
     company: "Reeler Tech",
-    link:"https://www.reelertech.com/",
+    link: "https://www.reelertech.com/",
     location: "Stockholm, Sweden",
     date: "Nov - Feb 2023",
     jobDescription:
@@ -19,7 +28,7 @@ export const Experience = [
   },
   {
     title: "Nursing Assistant",
-    link:"https://www.ds.se/",
+    link: "https://www.ds.se/",
     company: "Danderyds Hospital",
     location: "Stockholm, Sweden",
     date: "Jul 2019 - Aug 2022",

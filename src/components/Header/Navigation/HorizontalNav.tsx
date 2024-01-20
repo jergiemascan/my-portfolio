@@ -29,8 +29,6 @@ const Navbar = () => {
 export default Navbar
 
 const Container = styled.nav`
-  align-self: baseline;
-  padding-top: 1rem;
   ul {
     display: flex;
     flex-direction: row;
@@ -41,9 +39,14 @@ const Container = styled.nav`
     }
   }
   li a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--white-color);
+    transition: color 0.3s ease-in-out;
+    &:hover {
+      color: var(--lightest-grey);
+    }
   }
+
   ${BREAKPOINT_MAX_WIDTH[3]} {
     display: none;
   }
