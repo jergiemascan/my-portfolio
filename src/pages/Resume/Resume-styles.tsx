@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
 
 export const Flex = styled.div`
   display: flex;
@@ -27,7 +26,7 @@ export const Content = styled(Flex)`
   a {
     text-decoration: underline;
     &:hover {
-      color: var(--primary-color);
+      color: var(--orange-color);
     }
   }
   span {
@@ -38,7 +37,6 @@ export const Content = styled(Flex)`
 export const Description = styled.p`
   padding-top: 1rem;
   font-size: 1.1rem;
-  ${BREAKPOINT_MIN_WIDTH[3]} {
-    font-size: 1.2rem;
-  }
+  line-height: normal;
+  color: var(--secondary-color);
 `

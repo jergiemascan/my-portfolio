@@ -39,11 +39,12 @@ const Container = styled.nav`
     }
   }
   li a {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--white-color);
+    font-weight: bold;
     transition: color 0.3s ease-in-out;
     &:hover {
-      color: var(--lightest-grey);
+      color: var(--orange-color);
     }
   }
 

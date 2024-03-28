@@ -8,30 +8,21 @@ const About = () => {
       <div className="section">
         <Content>
           <h1>Hi, Welcome To My Portfolio👋🏻</h1>
-          <h2>
-            I'm Jergie, a goal-driven Front-end Developer, with a diploma in
-            Frontend Web Development from Higher Vocational Education. My
-            primary expertise lies in frontend, but I also have solid
-            understanding of backend web development and database solutions.
-            Technologies I'm proficient with include JavaScript, TypeScript,
-            React, Next.js, Vue and Node.js, which I have applied in numerous
-            projects.
-          </h2>
-
-          <h2>
-            As a person I am sociable, thriving in environments where
-            collaboration is key. I believe in the power of teamwork, where we
-            can blend our unique strengths and grow together. I'm all about
-            learning, improving, and pushing the boundaries of what I know about
-            web development.
-          </h2>
-
-          <h2>
-            When I'm not coding, I love playing badminton, kayaking, taking
-            sauna baths, and traveling for inspiration. Feel free to message me
-            if you have any job offers, recommendations, or just want to chat
-            about tech and badminton ☺️
-          </h2>
+          <p>
+            I’m Jergie. A passionate and driven Frontend Developer with a
+            Vocational College diploma focused on Frontend Development from
+            Stockholm, Sweden. I design and build web and server-side
+            applications with React(Next), Vue, JavaScript, NodeJs, and other
+            libraries and frameworks. I also have professional experience and
+            basic knowledge of Laravel PHP, AWS, and .NET.
+          </p>
+          <p>
+            I am naturally curious and always eager to learn new things that can
+            help me improve my skills. If you have any job offers or
+            recommendations, feel free to message me. I have gained valuable
+            experience from my previous internships and my current role and I am
+            committed to bringing that experience into any new opportunity.
+          </p>
         </Content>
       </div>
     </Section>
@@ -50,32 +41,33 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: start;
-  text-align: start;
+  text-align: center;
   gap: 1rem;
 
   h1 {
     text-align: center;
     padding-bottom: 2.5rem;
+    font-family: var(--font-secondary);
     font-weight: 600;
     line-height: 1.6;
     letter-spacing: 1px;
   }
 
-  h2 {
-    font-size: 1.1rem;
+  p {
+    font-family: var(--font-primary);
+    font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 0;
+    line-height: normal;
   }
 
   ${BREAKPOINT_MIN_WIDTH[2]} {
     padding: 3rem 0 9rem 0;
     max-width: 40rem;
-
-    h2 {
-      font-size: 1.2rem;
-    }
   }
   ${BREAKPOINT_MIN_WIDTH[4]} {
+    p {
+      font-size: 1.2rem;
+    }
     max-width: 50rem;
     padding-bottom: 12rem;
   }

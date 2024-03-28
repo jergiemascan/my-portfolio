@@ -20,7 +20,7 @@ const Technologies = () => {
                 data-fa-i2svg=""
               >
                 <path
-                  fill=" var(--primary-color)"
+                  fill="#10ac84"
                   d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
                 ></path>
               </svg>

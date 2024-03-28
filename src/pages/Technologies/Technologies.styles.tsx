@@ -32,12 +32,11 @@ export const GridContent = styled.div`
   &:last-child {
     border-bottom: none;
   }
-
-  li{
-    font-size:1.1rem;
+  li {
+    font-size: 1.1rem;
   }
 
-    ${BREAKPOINT_MIN_WIDTH[2]} {
+  ${BREAKPOINT_MIN_WIDTH[2]} {
     gap: 2rem;
     border-right: 1px solid var(--lightest-grey);
     padding: 3rem 0;
@@ -48,8 +47,8 @@ export const GridContent = styled.div`
   }
 `
 export const IconWrapper = styled.span`
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   position: relative;
 
   ${BREAKPOINT_MIN_WIDTH[3]} {
@@ -69,8 +68,9 @@ export const Icon = styled.span`
   align-items: center;
 
   svg {
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: 100;
 
     ${BREAKPOINT_MIN_WIDTH[1]} {
       height: 1.5rem;

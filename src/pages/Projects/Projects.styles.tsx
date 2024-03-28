@@ -6,11 +6,16 @@ export const Flex = styled.div`
   display: flex;
   flex-direction: column;
 `
+
 export const ProjectHeader = styled(Flex)`
   gap: 2rem;
   padding-top: 2rem;
   padding-bottom: 3rem;
   text-align: center;
+
+  h1 {
+    color: var(--secondary-color);
+  }
 
   h2 {
     font-weight: 300;
@@ -58,6 +63,10 @@ export const Figcaption = styled.figcaption`
   font-size: 1.2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   transition: opacity 0.4s ease-in-out;
+
+  h3 {
+    font-weight: 600;
+  }
 `
 export const Overlay = styled(Flex)`
   position: absolute;

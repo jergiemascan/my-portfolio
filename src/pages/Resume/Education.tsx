@@ -18,13 +18,6 @@ export const Education = [
       "Focused on JavaScript frameworks, JavaScript/TypeScript, and Node.js.",
   },
   {
-    course: "Nursing Assistant",
-    school: "Lärgården Education",
-    location: "Stockholm, Sweden",
-    date: "Jan 2018 - Aug 2019",
-    description: "Specialized in emergency healthcare.",
-  },
-  {
     course: "BSc in Business Administration",
     school: "Mati Polytechnic College",
     location: "Davao, Philippines",

@@ -6,11 +6,13 @@ export const TechnologiesList = [
     icon: <FaTerminal />,
     title: "Frontend",
     items: [
+      "CSS",
       "React",
       "Next",
       "Vue",
-      "Nuxt",
       "Redux",
+      "Vuex",
+      "Sass",
       "JavaScript",
       "TypeScript",
       "Styled Components",
@@ -19,11 +21,19 @@ export const TechnologiesList = [
   {
     icon: <FaCode />,
     title: "Backend",
-    items: [".NET 7", "Node.js", "Firebase", "MySQL", "MongoDB"],
+    items: [
+      ".NET 7",
+      "Laravel",
+      "Node.js",
+      "Firebase",
+      "MySQL",
+      "AWS",
+      "MongoDB",
+    ],
   },
   {
     icon: <FaChartArea />,
-    title: "Tools",
-    items: ["Figma", "Trello", "Github"],
+    title: "Tools and Software",
+    items: ["Git", "Docker", "Figma", "Trello"],
   },
 ]

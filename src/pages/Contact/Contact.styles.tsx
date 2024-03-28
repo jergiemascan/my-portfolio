@@ -12,7 +12,10 @@ export const ContactHeader = styled.div`
   gap: 1.5rem;
   padding-top: 1rem;
   text-align: center;
-  
+
+  h1 {
+    color: var(--secondary-color);
+  }
   h2 {
     font-weight: 300;
   }
@@ -45,8 +48,11 @@ export const Links = styled.a`
   align-items: center;
   height: fit-content;
 
+  span {
+    font-weight: 400;
+  }
   &:hover path {
-    fill: #0a66c2;
+    fill: var(--orange-color);
   }
 `
 

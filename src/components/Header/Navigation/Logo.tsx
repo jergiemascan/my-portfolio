@@ -1,28 +1,19 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../../../assets/images/logo.jpeg"
+import logo from "../../../assets/images/logo.png"
 import { Link } from "react-router-dom"
-import { BREAKPOINT_MIN_WIDTH } from "../../../assets/styles/Breakpoints"
+
 const Logo = () => {
   return (
-    <Container>
-      <Link to={"/"}>
-        <img src={logo} alt="logo" loading="lazy" />
-      </Link>
-    </Container>
+    <Link to={"/"}>
+      <Image src={logo} alt="logo" loading="lazy" />
+    </Link>
   )
 }
 
 export default Logo
-const Container = styled.div`
-  img {
-    max-width: 70%;
-
-    ${BREAKPOINT_MIN_WIDTH[2]} {
-      padding-top: 0.5rem;
-    }
-    ${BREAKPOINT_MIN_WIDTH[3]} {
-      max-width: 90%;
-    }
-  }
+const Image = styled.img`
+  width: 4rem;
+  height: auto;
+  margin-top: 0.5rem;
 `

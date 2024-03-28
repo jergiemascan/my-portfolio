@@ -6,23 +6,32 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,200&family=Nunito:wght@200;300;400&display=swap");
 
 :root {
   --primary-color: #6e07f3;
   --secondary-color: #141c3a;
+  --gray-dark-color: #5e5d5d;
   --white-color: #fff;
+  --orange-color: #e68207;
   --dark-grey: #293347a6;
   --lightest-grey: #e6ecf8;
+  --color-blue: #00bae2;
+  --color-pink: #fec5fb;
   --light-shadow: 0 5px 5px 0 #e9f0f380, 0 0 0 1px var(--lightest-grey);
+
+  /* FONTS */
+  --font-primary: "Nunito";
+  --font-secondary: "Lato";
+  --font-tertiary: "Source serif pro";
 }
 html {
   margin: 0;
 }
 
 body {
-  font-family: "Roboto Condensed", "Inter", Sans-Serif;
-  color: var(--secondary-color);
+  font-family: "Nunito", "Lato", "Source serif pro", Sans-Serif;
+  color: var(--gray-dark-color);
   letter-spacing: 0.2px;
   line-height: 1.5;
 }
@@ -32,8 +41,7 @@ header {
 
 h1 {
   font-size: 1.6rem;
-  font-weight: 500;
-
+  font-weight: 700;
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
   }
@@ -42,6 +50,7 @@ h1 {
 h2 {
   font-size: 1.3rem;
   font-weight: 600;
+  color: var(--secondary-color);
   @media only screen and (min-width: 992px) {
     font-size: 1.4rem;
   }
@@ -55,6 +64,7 @@ h3 {
 a {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 400;
 }
 a:active,
 a:visited {

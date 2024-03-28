@@ -101,15 +101,15 @@ const MenuButton = styled.button<MenuButtonProps>`
     margin: 0;
     z-index: 2000;
     position: fixed;
-    top: 2rem;
-    right: 1rem;
+    top: 1.2rem;
+    right: 0;
     transition: all 0.4s ease-out;
 
     ${BREAKPOINT_MIN_WIDTH[1]}{
-      right: 1.8rem;
+      right: 1rem;
     }
     ${BREAKPOINT_MIN_WIDTH[2]}{
-      top:2rem;
+      top:1.2rem;
     }
     `}
 `
@@ -134,6 +134,15 @@ const LinksUl = styled.ul`
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+
+  li a {
+    color: var(--gray-dark-color);
+    transition: border-bottom 0.3s ease-in-out;
+    font-weight: bold;
+    &:hover {
+      color: var(--orange-color);
+    }
+  }
 `
 const Svg = styled.svg`
   rect {
