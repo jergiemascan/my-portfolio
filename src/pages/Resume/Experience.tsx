@@ -27,7 +27,7 @@ export const Experience = [
       "During my second internship, I was responsible for full-stack development of DevCore's campaign website, which presented clients with various technology solutions. I developed using Umbraco CMS and ASP.NET for server-side rendering. Additionally, I conducted code reviews to ensure both requirements and quality standards were met.",
   },
   {
-    title: "Front-end Developer, Internship",
+    title: "Frontend Developer, Internship",
     company: "Reeler Tech",
     link: "https://www.reelertech.com/",
     location: "Stockholm, Sweden",

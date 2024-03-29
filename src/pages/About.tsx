@@ -10,18 +10,18 @@ const About = () => {
           <h1>Hi, Welcome To My Portfolio👋🏻</h1>
           <p>
             I’m Jergie. A passionate and driven Frontend Developer with a
-            Vocational College diploma focused on Frontend Development from
+            Vocational College diploma focused on Frontend Web Development from
             Stockholm, Sweden. I design and build web and server-side
             applications with React(Next), Vue, JavaScript, NodeJs, and other
             libraries and frameworks. I also have professional experience and
             basic knowledge of Laravel PHP, AWS, and .NET.
           </p>
           <p>
-            I am naturally curious and always eager to learn new things that can
-            help me improve my skills. If you have any job offers or
-            recommendations, feel free to message me. I have gained valuable
-            experience from my previous internships and my current role and I am
-            committed to bringing that experience into any new opportunity.
+            I am naturally curious and always eager to learn new things to
+            improve my skills. If you have any job offers or recommendations,
+            feel free to message me. I have gained valuable experience from my
+            previous internships and my current role and I am committed to
+            bringing that experience into any new opportunity.
           </p>
         </Content>
       </div>
@@ -61,12 +61,12 @@ export const Content = styled.div`
   }
 
   ${BREAKPOINT_MIN_WIDTH[2]} {
-    padding: 3rem 0 9rem 0;
+    padding: 0 0 9rem 0;
     max-width: 40rem;
   }
   ${BREAKPOINT_MIN_WIDTH[4]} {
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
     max-width: 50rem;
     padding-bottom: 12rem;

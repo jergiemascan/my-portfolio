@@ -1,6 +1,6 @@
 export const Education = [
   {
-    course: "Front-end Developer",
+    course: "Frontend Developer",
     school: "Jensen Vocational College",
     location: "Stockholm, Sweden",
     date: "Aug 2021 - June 2023",
