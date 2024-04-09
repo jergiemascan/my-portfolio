@@ -9,15 +9,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,200&family=Nunito:wght@200;300;400&display=swap");
 
 :root {
-  --primary-color: #6e07f3;
-  --secondary-color: #141c3a;
-  --gray-dark-color: #5e5d5d;
-  --white-color: #fff;
-  --orange-color: #e68207;
-  --dark-grey: #293347a6;
-  --lightest-grey: #e6ecf8;
-  --color-blue: #00bae2;
-  --color-pink: #fec5fb;
+  --primary-color: hsl(266, 94%, 49%);
+  --secondary-color: hsl(227, 49%, 15%);
+  --blue-violet-color: hsl(229, 67%, 60%);
+  --blue-violet-light-color: hsl(235, 87%, 70%);
+  --gray-dark-color: hsl(0, 1%, 37%);
+  --beige-100: rgb(255, 247, 237);
+  --white-color: hsl(0, 0%, 100%);
+  --orange-color: hsl(33, 94%, 46%);
+  --dark-grey: hsla(220, 27%, 22%, 0.651);
+  --lightest-grey: hsl(220, 56%, 94%);
+  --color-blue: hsl(191, 100%, 44%);
+  --color-pink-100: rgb(252 231 239);
+  --color-pink: hsl(303, 97%, 88%);
   --light-shadow: 0 5px 5px 0 #e9f0f380, 0 0 0 1px var(--lightest-grey);
 
   /* FONTS */
@@ -36,7 +40,13 @@ body {
   line-height: 1.5;
 }
 header {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background-color: rgb(255, 247, 237);
+  /* background-image: linear-gradient(
+    to bottom,
+    rgba(77, 101, 233, 0.9) 0%,
+    rgba(114, 128, 237, 0.9) 99.01%
+  ); */
 }
 
 h1 {

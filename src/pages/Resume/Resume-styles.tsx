@@ -19,12 +19,25 @@ export const ResumeContainer = styled.section`
     width: fit-content;
     padding: 0.5rem;
     border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: var(--white-color);
+      background-image: linear-gradient(
+        to right,
+        rgba(77, 101, 233, 0.9),
+        rgba(114, 128, 237, 0.9)
+      );
+    }
   }
+`
+export const H1 = styled.h1`
+  color: var(--blue-violet-color);
 `
 export const Content = styled(Flex)`
   gap: 1.9rem;
   a {
     text-decoration: underline;
+    transition: all 0.2s ease-in-out;
     &:hover {
       color: var(--orange-color);
     }

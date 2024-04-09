@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
 
-export const Section = styled.section``
+export const Section = styled.section`
+  z-index: 100;
+`
 export const GridContainer = styled.div`
   background-color: var(--white-color);
   box-shadow: var(--light-shadow);
@@ -12,9 +14,6 @@ export const GridContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
-    margin-top: -8rem;
-  }
-  ${BREAKPOINT_MIN_WIDTH[4]} {
     margin-top: -10rem;
   }
 `

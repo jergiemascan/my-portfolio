@@ -33,7 +33,7 @@ const VerticalNav = () => {
           viewBox="0 0 110 70"
           width="28"
           height="28"
-          fill={expanded ? "var(--secondary-color)" : "var(--white-color)"}
+          fill={expanded ? "var(--white-color)" : "var( --blue-violet-color)"}
           xmlns="http://www.w3.org/2000/svg"
         >
           <rect
@@ -90,7 +90,7 @@ const NavContainer = styled.nav`
 const MenuButton = styled.button<MenuButtonProps>`
   background-color: transparent;
   border: none;
-  color: #000;
+  color: var(--blue-violet-color);
   cursor: pointer;
   padding-right: 0.8rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -114,7 +114,11 @@ const MenuButton = styled.button<MenuButtonProps>`
     `}
 `
 const SmallScreenContainer = styled.div<MenuButtonProps>`
-  background-color: var(--white-color);
+  background-color: var(--beige-100);
+  background-image: radial-gradient(
+    rgba(77, 101, 233, 0.9) 7%,
+    rgba(114, 128, 237, 0.9) 92.01%
+  );
   position: fixed;
   top: 0;
   left: 0;
@@ -136,7 +140,7 @@ const LinksUl = styled.ul`
   font-size: 1.5rem;
 
   li a {
-    color: var(--gray-dark-color);
+    color: var(--white-color);
     transition: border-bottom 0.3s ease-in-out;
     font-weight: bold;
     &:hover {

@@ -8,7 +8,7 @@ const Resume = () => {
     <S.ResumeContainer className="section">
       <S.Content>
         <div>
-          <h1>Experience</h1>
+          <S.H1>Experience</S.H1>
           <hr></hr>
         </div>
         {Experience.map(exp => (
@@ -34,7 +34,7 @@ const Resume = () => {
 
       <S.Content>
         <div>
-          <h1>Education</h1>
+          <S.H1>Education</S.H1>
           <hr></hr>
         </div>
         {Education.map(course => (
@@ -54,7 +54,7 @@ const Resume = () => {
       <a
         href="https://drive.google.com/file/d/1jalQ4pj7aKZEmTfDXhDp0EYKXLJ8oUyH/view?usp=sharing"
         target="_blank"
-        rel="noopenner noreferrer "
+        rel="noopenner noreferrer"
       >
         Resume
         <svg

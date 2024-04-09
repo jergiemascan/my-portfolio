@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://jergiemascan.github.io/my-portfolio",
   "private": false,
-  "description": "Personal portfolio of Jergie Mascan",
+  "description": "Jergie Mascan: Front-end Developer & Designer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
