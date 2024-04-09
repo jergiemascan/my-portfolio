@@ -58,7 +58,7 @@ const ImageWrapper = styled.div`
   padding: 3rem;
   color: rgb(86, 112, 222);
   position: absolute;
-  top: 0;
+  top: -1px;
   width: 100%;
   left: 0;
   img {
