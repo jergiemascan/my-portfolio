@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2d80bf67.css",
-    "main.js": "/my-portfolio/static/js/main.4e7df97e.js",
+    "main.css": "/my-portfolio/static/css/main.8e16b014.css",
+    "main.js": "/my-portfolio/static/js/main.e689649f.js",
     "static/js/787.b926d2a2.chunk.js": "/my-portfolio/static/js/787.b926d2a2.chunk.js",
     "static/media/bingo-site-image.png": "/my-portfolio/static/media/bingo-site-image.1b2457e2e6cd6c7d473a.png",
     "static/media/todo-image.jpg": "/my-portfolio/static/media/todo-image.1ee83bde6f7eb51580ee.jpg",
     "static/media/visiple.png": "/my-portfolio/static/media/visiple.ac64ffcc7547fe7a55f5.png",
     "static/media/e-handel.jpg": "/my-portfolio/static/media/e-handel.7e127b64aea30fcbd375.jpg",
-    "static/media/author.png": "/my-portfolio/static/media/author.63281de7d19371699b7b.png",
+    "static/media/author.png": "/my-portfolio/static/media/author.01992bb7ccb7d197daed.png",
     "static/media/cities.jpg": "/my-portfolio/static/media/cities.b34e8636e4d9f15dd0f4.jpg",
     "static/media/bank-app.jpg": "/my-portfolio/static/media/bank-app.d54f7a475b2f4ddc039a.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.2d80bf67.css.map": "/my-portfolio/static/css/main.2d80bf67.css.map",
-    "main.4e7df97e.js.map": "/my-portfolio/static/js/main.4e7df97e.js.map",
+    "main.8e16b014.css.map": "/my-portfolio/static/css/main.8e16b014.css.map",
+    "main.e689649f.js.map": "/my-portfolio/static/js/main.e689649f.js.map",
     "787.b926d2a2.chunk.js.map": "/my-portfolio/static/js/787.b926d2a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d80bf67.css",
-    "static/js/main.4e7df97e.js"
+    "static/css/main.8e16b014.css",
+    "static/js/main.e689649f.js"
   ]
 }
