@@ -14,7 +14,13 @@ export const ContactHeader = styled.div`
   text-align: center;
 
   h1 {
-    color: var(--secondary-color);
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      var(--blue-violet-100),
+      var(--primary-color)
+    );
+    -webkit-background-clip: text;
   }
   h2 {
     font-weight: 300;
@@ -32,31 +38,32 @@ export const ContactHeader = styled.div`
 `
 export const LinkContainer = styled.div`
   display: flex;
-  justify-content: space-around;
   padding-top: 3rem;
+  gap: 0.8rem;
+  justify-content: center;
   ${BREAKPOINT_MIN_WIDTH[2]} {
-    justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     padding-top: 0;
   }
 `
 export const Links = styled.a`
-  font-family: "Inter";
   font-size: 0.9rem;
   display: flex;
-  gap: 0.5rem;
   align-items: center;
   height: fit-content;
-
-  span {
-    font-weight: 400;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 400;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    border: 1px solid var(--orange-color);
+    fill: var(--white-color);
+    background-color: var(--orange-color);
   }
   &:hover path {
-    fill: var(--orange-color);
+    fill: var(--white-color);
   }
-`
-
-export const SocialMadiaWrapper = styled.div`
-  display: flex;
-  gap: 1rem;
 `

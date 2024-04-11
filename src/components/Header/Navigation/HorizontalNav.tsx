@@ -40,7 +40,7 @@ const Container = styled.nav`
   }
   li a {
     font-size: 0.9rem;
-    color: var(--blue-violet-color);
+    color: var(--blue-violet-300);
     font-weight: bold;
     transition: color 0.3s ease-in-out;
     &:hover {

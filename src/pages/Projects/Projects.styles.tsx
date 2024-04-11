@@ -14,7 +14,13 @@ export const ProjectHeader = styled(Flex)`
   text-align: center;
 
   h1 {
-    color: var(--secondary-color);
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      var(--blue-violet-100),
+      var(--primary-color)
+    );
+    -webkit-background-clip: text;
   }
 
   h2 {

@@ -28,11 +28,27 @@ export const GridContent = styled.div`
   position: relative;
   border-bottom: 1px solid var(--lightest-grey);
 
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
   &:last-child {
     border-bottom: none;
   }
   li {
     font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    span:not(:last-child) {
+      color: var(--color-green-100);
+      font-size: 2rem;
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 5px;
+      padding: 4px;
+      align-self: center;
+    }
   }
 
   ${BREAKPOINT_MIN_WIDTH[2]} {

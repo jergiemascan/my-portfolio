@@ -20,7 +20,7 @@ const Technologies = () => {
                 data-fa-i2svg=""
               >
                 <path
-                  fill="#10ac84"
+                  fill="var(--color-green-100"
                   d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
                 ></path>
               </svg>
@@ -30,7 +30,10 @@ const Technologies = () => {
             <h2>{tech.title}</h2>
             <ul>
               {tech.items.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index}>
+                  <span>{item.icon}</span>
+                  <span> {item.name}</span>
+                </li>
               ))}
             </ul>
           </S.GridContent>

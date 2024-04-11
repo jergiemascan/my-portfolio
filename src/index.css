@@ -11,17 +11,20 @@
 :root {
   --primary-color: hsl(266, 94%, 49%);
   --secondary-color: hsl(227, 49%, 15%);
-  --blue-violet-color: hsl(229, 67%, 60%);
-  --blue-violet-light-color: hsl(235, 87%, 70%);
+  --blue-violet-100: hsl(269.2 97.4% 85.1%);
+  --blue-violet-200: hsl(235, 87%, 70%);
+  --blue-violet-300: hsl(229, 67%, 60%);
   --gray-dark-color: hsl(0, 1%, 37%);
   --beige-100: rgb(255, 247, 237);
   --white-color: hsl(0, 0%, 100%);
   --orange-color: hsl(33, 94%, 46%);
+  --orange-100: hsl(37.7 92.1% 50.2%);
   --dark-grey: hsla(220, 27%, 22%, 0.651);
   --lightest-grey: hsl(220, 56%, 94%);
   --color-blue: hsl(191, 100%, 44%);
   --color-pink-100: rgb(252 231 239);
   --color-pink: hsl(303, 97%, 88%);
+  --color-green-100: hsl(165, 83%, 37%);
   --light-shadow: 0 5px 5px 0 #e9f0f380, 0 0 0 1px var(--lightest-grey);
 
   /* FONTS */
@@ -91,6 +94,28 @@ body.noscroll {
 }
 .active-link {
   border-bottom: 1px solid var(--lightest-grey);
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translate3d(0px, 100%, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0px, 0%, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutUp {
+  0% {
+    transform: translate3d(0px, 0%, 0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0px, -20%, 0px);
+    opacity: 0;
+  }
 }
 
 .section {

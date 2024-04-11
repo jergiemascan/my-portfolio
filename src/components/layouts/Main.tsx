@@ -1,5 +1,5 @@
 import React from "react"
-import About from "../../pages/About"
+import About from "../../pages/About/About"
 import Technology from "../../pages/Technologies/Technologies"
 import Projects from "../../pages/Projects/Projects"
 import Contact from "../../pages/Contact/Contact"

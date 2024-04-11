@@ -1,6 +1,6 @@
 # Jergie's Personal Portfolio
 
-![Image description](./public/logo-2.jpg)
+![Image description](./public/logo.png)
 
 This is my personal portfolio built with the following technologies:
 

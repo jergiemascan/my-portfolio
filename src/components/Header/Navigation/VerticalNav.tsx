@@ -33,7 +33,7 @@ const VerticalNav = () => {
           viewBox="0 0 110 70"
           width="28"
           height="28"
-          fill={expanded ? "var(--white-color)" : "var( --blue-violet-color)"}
+          fill={expanded ? "var(--white-color)" : "var( --blue-violet-300)"}
           xmlns="http://www.w3.org/2000/svg"
         >
           <rect
@@ -90,7 +90,7 @@ const NavContainer = styled.nav`
 const MenuButton = styled.button<MenuButtonProps>`
   background-color: transparent;
   border: none;
-  color: var(--blue-violet-color);
+  color: var(--blue-violet-300);
   cursor: pointer;
   padding-right: 0.8rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

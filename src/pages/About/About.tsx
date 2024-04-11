@@ -1,16 +1,19 @@
 import React from "react"
 import styled from "styled-components"
-import { BREAKPOINT_MIN_WIDTH } from "../assets/styles/Breakpoints"
-import author from "../assets/images/author.png"
+import { BREAKPOINT_MIN_WIDTH } from "../../assets/styles/Breakpoints"
+import author from "../../assets/images/author.png"
+import AboutHeading from "./AboutHeading"
 
 const About = () => {
   return (
     <Section>
       <div className="section">
-        <ImageWrapper className="imageWrapper-">
-          <h1>Hi, Welcome To My Portfolio👋🏻</h1>
-          <img src={author} alt="owner" />
-        </ImageWrapper>
+        <HeadingWrapper>
+          <h1>Hi, I'm Jergie👋🏻</h1>
+          <h1 className="flex-">Frontend Developer,</h1>
+          <AboutHeading />
+          <img src={author} alt="owner" loading="lazy" />
+        </HeadingWrapper>
         <Content>
           <p>
             I’m Jergie. A passionate and driven Frontend Developer with a
@@ -43,7 +46,7 @@ const Section = styled.section`
   );
   position: relative;
 `
-const ImageWrapper = styled.div`
+const HeadingWrapper = styled.div`
   background-color: rgb(255, 247, 237);
   background-image: radial-gradient(
       at 36% 120%,
@@ -55,7 +58,7 @@ const ImageWrapper = styled.div`
     radial-gradient(at 43% 56%, rgb(255, 199, 219) 0px, transparent 50%);
   content: "";
   clip-path: polygon(0% 0%, 100% 0px, 100% 84%, 50% 90%, 0px 84%);
-  padding: 3rem;
+  padding: 4rem 0;
   color: rgb(86, 112, 222);
   position: absolute;
   top: -1px;
@@ -66,32 +69,42 @@ const ImageWrapper = styled.div`
     width: 10rem;
     height: 10rem;
   }
-
+  h1 {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: var(--blue-violet-300);
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+  .flex {
+    display: flex;
+    gap: 1.5rem;
+  }
   ${BREAKPOINT_MIN_WIDTH[2]} {
     clip-path: polygon(0% 0%, 100% 0px, 100% 86%, 50% 100%, 0px 86%);
     padding-top: 5rem;
     img {
-      width: 13rem;
+      width: 12rem;
       height: 12rem;
+    }
+    h1 {
+      font-size: 34px;
+      letter-spacing: 0.3px;
+      line-height: 3rem;
     }
   }
 `
 export const Content = styled.div`
   padding: 0 0 8rem 0;
-  margin: 18rem auto 0px auto;
+  margin: 25rem auto 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
   text-align: center;
   gap: 1rem;
-  h1 {
-    text-align: center;
-    font-family: var(--font-secondary);
-    font-weight: 600;
-    line-height: 1.6;
-    letter-spacing: 1px;
-    color: var(--blue-violet-color);
-  }
+
   p {
     font-family: var(--font-primary);
     font-size: 1rem;
@@ -106,9 +119,6 @@ export const Content = styled.div`
   ${BREAKPOINT_MIN_WIDTH[2]} {
     padding: 6rem 0 9rem 0;
     max-width: 45rem;
-    h1 {
-      padding-bottom: 2.5rem;
-    }
   }
   ${BREAKPOINT_MIN_WIDTH[4]} {
     p {
