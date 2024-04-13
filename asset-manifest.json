@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8e16b014.css",
-    "main.js": "/my-portfolio/static/js/main.e689649f.js",
+    "main.css": "/my-portfolio/static/css/main.4c868914.css",
+    "main.js": "/my-portfolio/static/js/main.2c209ca8.js",
     "static/js/787.b926d2a2.chunk.js": "/my-portfolio/static/js/787.b926d2a2.chunk.js",
     "static/media/bingo-site-image.png": "/my-portfolio/static/media/bingo-site-image.1b2457e2e6cd6c7d473a.png",
     "static/media/todo-image.jpg": "/my-portfolio/static/media/todo-image.1ee83bde6f7eb51580ee.jpg",
@@ -11,12 +11,12 @@
     "static/media/cities.jpg": "/my-portfolio/static/media/cities.b34e8636e4d9f15dd0f4.jpg",
     "static/media/bank-app.jpg": "/my-portfolio/static/media/bank-app.d54f7a475b2f4ddc039a.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.8e16b014.css.map": "/my-portfolio/static/css/main.8e16b014.css.map",
-    "main.e689649f.js.map": "/my-portfolio/static/js/main.e689649f.js.map",
+    "main.4c868914.css.map": "/my-portfolio/static/css/main.4c868914.css.map",
+    "main.2c209ca8.js.map": "/my-portfolio/static/js/main.2c209ca8.js.map",
     "787.b926d2a2.chunk.js.map": "/my-portfolio/static/js/787.b926d2a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e16b014.css",
-    "static/js/main.e689649f.js"
+    "static/css/main.4c868914.css",
+    "static/js/main.2c209ca8.js"
   ]
 }
