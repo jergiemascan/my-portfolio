@@ -13,6 +13,9 @@ import {
   FaGithub,
   FaLaravel,
   FaNodeJs,
+  FaPhp,
+  FaWordpress,
+  FaElementor,
 } from "react-icons/fa"
 import { TbBrandMysql } from "react-icons/tb"
 import {
@@ -44,6 +47,8 @@ export const TechnologiesList = [
       { icon: <FaSass />, name: "Sass" },
       { icon: <SiJavascript />, name: "JavaScript" },
       { icon: <SiTypescript />, name: "TypeScript" },
+      { icon: <FaWordpress />, name: "WordPress" },
+      { icon: <FaElementor />, name: "Elementor" },
       { icon: <SiStyledcomponents />, name: "Styled Components" },
     ],
   },
@@ -53,6 +58,7 @@ export const TechnologiesList = [
     items: [
       { icon: <SiDotnet />, name: ".NET 7" },
       { icon: <FaLaravel />, name: "Laravel" },
+      { icon: <FaPhp />, name: "PHP" },
       { icon: <FaNodeJs />, name: "Node.js" },
       { icon: <TbBrandMysql />, name: "MySQL" },
       { icon: <SiMongodb />, name: "MongoDB" },
@@ -65,7 +71,6 @@ export const TechnologiesList = [
       { icon: <TbBrandGit />, name: "Git" },
       { icon: <FaGithub />, name: "GitHub" },
       { icon: <FaDocker />, name: "Docker" },
-      { icon: <FaAws />, name: "AWS" },
       { icon: <FaFigma />, name: "Figma" },
     ],
   },

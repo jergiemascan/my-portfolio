@@ -1,10 +1,19 @@
 export const Experience = [
   {
+    title: "Web Developer",
+    company: "Urogyn AB & Ovumia AB",
+    link: "https://www.urogyn.se/",
+    location: "Stockholm, Sweden",
+    date: "Jul. 2024 - present",
+    jobDescription:
+      "Responsible for maintaining and continuously developing the company’s websites, including the internal intranet platform used by 40+ employees in Stockholm. Technology use include PHP, WordPress and Elementor. Check the websites here https://www.urogyn.se/ and https://www.ovumia.se",
+  },
+  {
     title: "Frontend Developer",
     company: "Cardia",
     link: "https://mycardia.se/",
     location: "Stockholm, Sweden",
-    date: "Jan. 2024 - present",
+    date: "Jan. 2024 - Jul. 2024",
     jobDescription:
       "Designer and responsible for developing the frontend of a car dealer business system, providing support as needed with backend and DevOps, troubleshooting issues, and conducting thorough testing prior to each feature release. Technology use include Vue, TypeScript, AWS, and Laravel PHP.",
   },

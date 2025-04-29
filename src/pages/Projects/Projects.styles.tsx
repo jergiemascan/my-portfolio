@@ -45,6 +45,7 @@ export const ProjectContainer = styled(Flex)`
   ${BREAKPOINT_MIN_WIDTH[2]} {
     flex-direction: row;
     padding: 0;
+    justify-content: center;
   }
 `
 
