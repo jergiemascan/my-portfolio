@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.4c868914.css",
-    "main.js": "/my-portfolio/static/js/main.2c209ca8.js",
+    "main.js": "/my-portfolio/static/js/main.ac5a4f5a.js",
     "static/js/787.b926d2a2.chunk.js": "/my-portfolio/static/js/787.b926d2a2.chunk.js",
     "static/media/bingo-site-image.png": "/my-portfolio/static/media/bingo-site-image.1b2457e2e6cd6c7d473a.png",
+    "static/media/urogyn.png": "/my-portfolio/static/media/urogyn.fc365ba3451b131ae7a7.png",
+    "static/media/ovumia-stockholm.png": "/my-portfolio/static/media/ovumia-stockholm.413c1f223e73066b72af.png",
     "static/media/todo-image.jpg": "/my-portfolio/static/media/todo-image.1ee83bde6f7eb51580ee.jpg",
     "static/media/visiple.png": "/my-portfolio/static/media/visiple.ac64ffcc7547fe7a55f5.png",
     "static/media/e-handel.jpg": "/my-portfolio/static/media/e-handel.7e127b64aea30fcbd375.jpg",
@@ -12,11 +14,11 @@
     "static/media/bank-app.jpg": "/my-portfolio/static/media/bank-app.d54f7a475b2f4ddc039a.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.4c868914.css.map": "/my-portfolio/static/css/main.4c868914.css.map",
-    "main.2c209ca8.js.map": "/my-portfolio/static/js/main.2c209ca8.js.map",
+    "main.ac5a4f5a.js.map": "/my-portfolio/static/js/main.ac5a4f5a.js.map",
     "787.b926d2a2.chunk.js.map": "/my-portfolio/static/js/787.b926d2a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c868914.css",
-    "static/js/main.2c209ca8.js"
+    "static/js/main.ac5a4f5a.js"
   ]
 }
