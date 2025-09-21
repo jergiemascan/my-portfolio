@@ -42,23 +42,25 @@ const About = () => {
       </HeadingWrapper>
       <Content>
         <p>
-          I’m passionate about design and technology coming together to create a
-          perfect user experience: Beautiful, intuitive and effective. I write
-          clean code. I sweat the details. I keep it simple.
+          I’m a Stockholm-based Frontend Developer with a diploma in Frontend
+          Web Development. I’m passionate about design and technology coming
+          together to create a beautiful, intuitive, and effective user
+          experience. I write clean code, sweat the details, and keep it simple.
         </p>
         <p>
           My expertise lies within frontend development and design, but I also
-          have good experience with backend and my aim is to become fullstack
-          🚀.
+          have a solid understanding of backend development and database
+          solutions🚀.
         </p>
         <p>
-          I have a Vocational College diploma in frontend development from
-          Jensen Yrkeshögskola, Stockholm, and one year’s relevant work
-          experience. I'm based in Stockholm, Sweden.
+          Alongside my job, I take on freelance projects, often working with CMS
+          solutions and adapting flexibly to client needs. I thrive in
+          collaborative environments, but I also enjoy taking ownership and
+          seeing projects through from start to finish.
         </p>
         <p>
           Feel free to reach me if you have an opportunity you’d like to discuss
-          or just want to say hello.
+          or just want to say hello 👋🏻.
         </p>
         <a
           href="mailto:jiji.mascan@gmail.com"
